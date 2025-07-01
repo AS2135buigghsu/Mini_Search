@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniSearch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MiniSearch</h1>
+    <p class="description">Find what you're looking for</p>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search for anything..." />
+    </div>
+
+    <div class="filters">
+      <button class="active" data-type="all">Wikipidia</button>
+      <button data-type="images">Images</button>
+      <button data-type="videos">Videos</button>
+    </div>
+
+    <div class="results" id="results"></div>
+
+    <footer>
+      <p>&copy; <span id="year"></span> MiniSearch - A simple search engine demo</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
